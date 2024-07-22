@@ -1,4 +1,4 @@
-import type { Metadata, ResolvingMetadata } from 'next'
+import type { ResolvingMetadata } from 'next'
 
 import { CONFIG } from '~/app.config'
 import { Divider } from '~/components/divider'
@@ -28,7 +28,7 @@ export async function generateMetadata(
     }
   },
   parent: ResolvingMetadata,
-): Promise<Metadata> {
+): Promise {
   const { title } = await getServerProps(props.params)
   const { cate, slug } = props.params
   return {
@@ -77,11 +77,11 @@ export default async (props: {
           <p>
             前往{' '}
             <a
-              href="https://innei.in/posts/technology/my-first-nextjs-book-here#comment"
+              href="https://x.com/BarrySong97/status/1815309469976342674"
               target="_blank"
               rel="noreferrer"
             >
-              https://innei.in/posts/tech/my-first-nextjs-book-here#comment
+              这里
             </a>{' '}
             发表你的观点吧。
           </p>

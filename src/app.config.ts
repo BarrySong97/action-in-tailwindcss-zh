@@ -21,18 +21,18 @@ export const CONFIG = {
 
 export const SEO = {
   title: {
-    absolute: 'Book SSG Template',
-    template: `%s | ${'Book SSG Template'}`,
+    absolute: 'Tailwind CSS使用手册',
+    template: `%s | ${'Tailwind CSS使用手册'}`,
   },
   metadataBase: new URL(CONFIG.urlBase),
   twitter: {
     card: 'summary_large_image',
     creator: '@__oQuery',
-    site: 'https://innei.in',
+    site: 'https://barrysong4real.cc/',
   },
   openGraph: {
     type: 'book',
-    authors: ['innei'],
+    authors: ['BarrySong'],
     tags: ['nextjs'],
     images: [],
   },
